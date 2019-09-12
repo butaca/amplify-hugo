@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM ubuntu:latest
 
 ENV VERSION_HUGO=0.58.1
 
