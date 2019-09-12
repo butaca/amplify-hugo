@@ -10,8 +10,7 @@ RUN yum -y update && \
     yum -y install \
         curl \
         git \
-        openssl-devel \
-        openssh-clients \
+        openssl \
         tar \
     yum clean all && \
     rm -rf /var/cache/yum
