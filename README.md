@@ -4,7 +4,7 @@ Fastest Docker image to run Hugo on Amazon AWS Amplify Console
 
 ## Trial and error
 
-At the time of writting, the [Amplify Console documentation about custom build images](https://docs.aws.amazon.com/amplify/latest/userguide/custom-build-image.html) doesn't give a lot of info about the requirements and the environment so I tried different build images and roughly measeure the build times.
+At the time of writting, the [Amplify Console documentation about custom build images](https://docs.aws.amazon.com/amplify/latest/userguide/custom-build-image.html) doesn't give a lot of info about the requirements and about the environment. Therefore I tried different build images to roughly measeure and compare the build times.
 
 | Image | Time |
 | --- | --- |
