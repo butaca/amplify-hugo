@@ -12,7 +12,7 @@ At the time of writting, the [Amplify Console documentation about custom build i
 | alpine:latest | doesn't work* |
 | **amazonlinux:2** | ~1 minute |
 | debian:stable-slim | ~1.5 minutes |
-| ubuntu:latest | ~1 minute |
+| **ubuntu:latest** | ~1 minute |
 
 \* Alpine is not supported yet: <https://github.com/aws-amplify/amplify-console/issues/105#issuecomment-530477402>
 
