@@ -1,6 +1,6 @@
 FROM amazonlinux:2
 
-ENV VERSION_HUGO=0.58.2
+ENV VERSION_HUGO=0.58.3
 ENV VERSION_NODE=12.10.0
 
 # Install Curl, Git, OpenSSL (AWS Amplify requirements) and tar (required to install hugo)
