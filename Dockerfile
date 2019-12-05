@@ -1,6 +1,6 @@
 FROM debian:stable-slim
 
-ENV VERSION_HUGO=0.60.0
+ENV VERSION_HUGO=0.60.1
 
 RUN apt-get update && apt-get install -y curl git openssl nodejs
 
