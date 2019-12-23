@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-ENV VERSION_HUGO=0.61.0
+ENV VERSION_HUGO=0.62.0
 
 RUN apt-get update && apt-get install -y curl git openssl nodejs
 
