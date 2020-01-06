@@ -1,7 +1,7 @@
 
 FROM alpine:latest
 
-ENV VERSION_HUGO=0.62.1
+ENV VERSION_HUGO=0.62.2
 
 RUN apk add --no-cache bash curl git libc6-compat libstdc++ nodejs nodejs-npm openssl openssl-dev yarn
 
