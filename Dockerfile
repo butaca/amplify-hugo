@@ -27,9 +27,7 @@ RUN curl -OL https://github.com/gohugoio/hugo/releases/download/v${VERSION_HUGO}
     rm -rf hugo_${VERSION_HUGO}_Linux-64bit.tar.gz
 
 # Configure environment
-RUN echo export PATH="\
-    /root/.nvm/versions/node/${VERSION_NODE}/bin:\
-    $PATH" >> ~/.bashrc && \
+RUN echo export PATH="/root/.nvm/versions/node/${VERSION_NODE}/bin:\$PATH" >> ~/.bashrc && \
     echo "nvm use ${VERSION_NODE} 1> /dev/null" >> ~/.bashrc
 
 ENTRYPOINT [ "bash", "-c" ]
